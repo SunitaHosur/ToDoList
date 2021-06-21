@@ -32,7 +32,6 @@ function display(){
     document.querySelector(".list").innerHTML += "<center><div class='element'>"
     +elements[i]+"<button onclick='del("+i+")' class='delete'>DELETE</button></div></center>";
 }
-
 // delete items
 function del(index){
     elements.splice(index, 1);
